@@ -1,0 +1,24 @@
+.Footer {
+  align-items: center;
+  background-color: #eafd9f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Footer-link-list {
+  display: flex;
+  margin-bottom: 1.6rem;
+  list-style: none;
+  padding: 0;
+}
+
+.Footer-link-list li:nth-child(2) {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.Copyright {
+  font-size: 1.4rem;
+  font-weight: bold;
+}

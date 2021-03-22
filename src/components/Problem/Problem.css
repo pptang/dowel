@@ -1,0 +1,35 @@
+.Problem {
+  background-color: #534d90;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 20rem 12rem 18rem 12rem;
+}
+
+.Problem-title {
+  color: #ffffff;
+  padding-top: 6rem;
+  text-align: left;
+  width: 40%;
+}
+
+.Problem-title > h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 3.2rem;
+}
+
+.Problem-title > p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.Problem-image {
+  width: 50%;
+}
+
+.Problem-image > img {
+  width: 100%;
+  height: auto;
+}
