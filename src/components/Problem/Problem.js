@@ -4,12 +4,11 @@ import './Problem.css';
 const Problem = () => (
   <section className="Problem">
     <article className="Problem-title">
-      <h2>This is a challenging period.😔</h2>
+      <h2>Covid-19 SILOS people, and we know this is frustrating.😔</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi dolor arcu
-        blandit id nisi, quam integer consequat dui. Arcu consectetur nibh
-        congue risus dictum faucibus in. Massa massa dictum feugiat penatibus
-        viverra. Tortor ornare at condimentum quam odio nullam aliquam donec.
+        Remote work, movement restrictions and social distancing...such policies
+        leave people social isolation. Inevitably, people feel disconnected from
+        others or even worse.
       </p>
     </article>
     <article className="Problem-image">

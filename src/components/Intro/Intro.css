@@ -1,20 +1,32 @@
 .Intro {
-  background-color: #eafd9f;
+  background-color: #ccffe7;
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 14rem 12rem 2.4rem 12rem;
-  padding-top: 14rem;
+  padding: 14rem 12rem 3rem 12rem;
 }
 
-.Intro > h2 {
+.Intro-title {
+  display: flex;
+  margin: 0 auto 2.8rem auto;
+}
+
+.Intro-title > h2 {
+  flex: 1;
   font-size: 4rem;
 }
 
-.Intro > h3 {
+.Intro-title-list {
+  flex: 2;
   font-size: 1.6rem;
-  margin: 0 auto 2.8rem auto;
-  width: 40%;
+  font-weight: bold;
+  line-height: 140%;
+  text-align: left;
+}
+
+.Intro-title-list li:last-child {
+  list-style: none;
+  margin-top: 1.6rem;
 }
 
 .Intro-content {
@@ -23,10 +35,26 @@
   font-size: 1.6rem;
 }
 
-.Intro-content > article {
-  background-color: #fff6e1;
+.Intro-content-article {
+  background-color: #fffeda;
   border: 4px #000000 solid;
   border-radius: 20px;
+  margin-bottom: 10rem;
   padding: 2.4rem 3.2rem;
+  text-align: left;
   width: 27%;
+}
+
+.Intro-content-article > img {
+  width: 100%;
+}
+
+.Intro-content-article > h4 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.Intro-content-article > p {
+  font-size: 1.4rem;
+  font-weight: bold;
 }
