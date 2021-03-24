@@ -5,7 +5,6 @@
 
 .Logo {
   border-radius: 24px;
-  height: auto;
 }
 
 .Dowel {
@@ -18,10 +17,11 @@
   font-size: 2rem;
   font-weight: bold;
   list-style: none;
+  padding-top: 1rem;
 }
 
 .Nav-link-list li {
-  margin-left: 12.4rem;
+  margin-left: 5.6rem;
 }
 
 .Nav-link-list a {

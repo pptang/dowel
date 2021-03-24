@@ -1,5 +1,3 @@
-import logo from '../../logo.svg';
-
 import React from 'react';
 import './Header.css';
 
@@ -16,7 +14,7 @@ const Links = [
 
 const Header = () => (
   <header className="App-header">
-    <img className="Logo" src="logo.png" alt="logo" width="180" height="180" />
+    <img className="Logo" src="logo.svg" alt="logo" width="180" height="180" />
     <img
       className="Dowel"
       src="dowel.svg"
