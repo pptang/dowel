@@ -1,0 +1,2 @@
+export const ADD_TO_SLACK =
+  'https://slack.com/oauth/v2/authorize?scope=chat%3Awrite%2Ccommands&state=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnN0YWxsT3B0aW9ucyI6eyJzY29wZXMiOlsiY2hhdDp3cml0ZSIsImNvbW1hbmRzIl19LCJub3ciOiIyMDIxLTAzLTI4VDA1OjE4OjM3LjA0N1oiLCJpYXQiOjE2MTY5MDg3MTd9.1maAPKIHVKNcpPhxkbgmCXoJQ4tlguPLoCYGqg3AK1Q&client_id=373088991634.1763865951409';
