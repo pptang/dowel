@@ -1,4 +1,5 @@
 import React from 'react';
+import { traverseTwoPhase } from 'react-dom/test-utils';
 import Footer from '../Footer/Footer';
 
 import './Intro.css';
@@ -9,27 +10,26 @@ const Contents = [
       src: 'question.svg',
       alt: 'question',
     },
-    title: 'Question 📝',
+    title: 'Taps of self-intro 📝',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi dolor arcublandit id nisi, quam integer consequat dui.',
+      'Tell everyone about yourself, as simple as few taps of emojis.',
   },
   {
     img: {
       src: 'chart.svg',
       alt: 'chart',
     },
-    title: 'Chart 📊',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi dolor arcublandit id nisi, quam integer consequat dui.',
+    title: 'Visible personalities 📊',
+    description: "Visualize and map each one's taste and personality.",
   },
   {
     img: {
       src: 'dialog.svg',
       alt: 'dialog',
     },
-    title: 'Dialog 💬',
+    title: 'Engaging conversations 💬',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi dolor arcublandit id nisi, quam integer consequat dui.',
+      'Go on the delightful journey, getting along with people with passion and interests.',
   },
 ];
 
