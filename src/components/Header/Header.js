@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { ADD_TO_SLACK } from '../../constants';
 import './Header.css';
 
 const Links = [
@@ -54,7 +55,7 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <a className="Nav-add-to-slack" href="">
+      <a className="Nav-add-to-slack" href={ADD_TO_SLACK}>
         Add to Slack 🙌
       </a>
     </header>
